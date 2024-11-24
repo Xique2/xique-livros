@@ -1,0 +1,102 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefae0;
+}
+
+/* Header */
+.header {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Layout principal */
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #94d2bd;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #005f73;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+/* Livros */
+.book-section {
+    margin-bottom: 20px;
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-list li {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f4a261;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #005f73;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ca6702;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #005f73;
+    color: white;
+    padding: 20px 10px;
+}
+
+.footer a {
+    color: #94d2bd;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
